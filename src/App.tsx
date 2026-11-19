@@ -282,7 +282,7 @@ function ResearchTab() {
                 {ordered.map((r) => (
                   <tr key={r.city} className={chosen.city === r.city ? 'selected' : ''}>
                     <td><button className="city-link" aria-pressed={chosen.city === r.city} onClick={() => setSelected(r.city)}>{r.city}</button></td>
-                    <td><span className={`region-tag ${r.island.toLowerCase()}`}>{r.island}</span></td>
+                    <td><span className={`region-tag ${String(r.island ?? '').toLowerCase()}`}>{r.island ?? '—'}</span></td>
                     <td>{fmt(r.brier_A)}</td><td>{fmt(r.brier_B)}</td><td className="strong-cell">{fmt(r.brier_C)}</td>
                     <td className={r.delta_C_minus_A < 0 ? 'improve' : 'decline'}>{signed(r.delta_C_minus_A)}</td>
                   </tr>
