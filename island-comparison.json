@@ -1,0 +1,83 @@
+[
+  {
+    "island": "Luzon",
+    "comparison": "C_minus_B",
+    "island_macro_mean_daily_brier_diff": -0.0048905629507785,
+    "ci_low": -0.0059969611658811,
+    "ci_high": -0.0037636054005483,
+    "cities": 7,
+    "days": 243
+  },
+  {
+    "island": "Luzon",
+    "comparison": "C_minus_A",
+    "island_macro_mean_daily_brier_diff": -0.0135672302683687,
+    "ci_low": -0.0181959159117096,
+    "ci_high": -0.0089400083346949,
+    "cities": 7,
+    "days": 243
+  },
+  {
+    "island": "Luzon",
+    "comparison": "B_minus_A",
+    "island_macro_mean_daily_brier_diff": -0.0086766673175901,
+    "ci_low": -0.0130481616324788,
+    "ci_high": -0.0042920059663815,
+    "cities": 7,
+    "days": 243
+  },
+  {
+    "island": "Visayas",
+    "comparison": "C_minus_B",
+    "island_macro_mean_daily_brier_diff": -0.0046547428816157,
+    "ci_low": -0.0061091950549003,
+    "ci_high": -0.0032465915487975,
+    "cities": 6,
+    "days": 243
+  },
+  {
+    "island": "Visayas",
+    "comparison": "C_minus_A",
+    "island_macro_mean_daily_brier_diff": -0.0169529404649694,
+    "ci_low": -0.0211125116132238,
+    "ci_high": -0.0127215084940069,
+    "cities": 6,
+    "days": 243
+  },
+  {
+    "island": "Visayas",
+    "comparison": "B_minus_A",
+    "island_macro_mean_daily_brier_diff": -0.0122981975833537,
+    "ci_low": -0.0165221338574592,
+    "ci_high": -0.0079267694658031,
+    "cities": 6,
+    "days": 243
+  },
+  {
+    "island": "Mindanao",
+    "comparison": "C_minus_B",
+    "island_macro_mean_daily_brier_diff": -0.0034381989912703,
+    "ci_low": -0.0050813834523851,
+    "ci_high": -0.0018019797375384,
+    "cities": 6,
+    "days": 243
+  },
+  {
+    "island": "Mindanao",
+    "comparison": "C_minus_A",
+    "island_macro_mean_daily_brier_diff": -0.0169765018879613,
+    "ci_low": -0.0216002849913446,
+    "ci_high": -0.0125216797272357,
+    "cities": 6,
+    "days": 243
+  },
+  {
+    "island": "Mindanao",
+    "comparison": "B_minus_A",
+    "island_macro_mean_daily_brier_diff": -0.013538302896691,
+    "ci_low": -0.0171723106341701,
+    "ci_high": -0.0096732633017985,
+    "cities": 6,
+    "days": 243
+  }
+]

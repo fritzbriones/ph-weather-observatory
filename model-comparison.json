@@ -1,0 +1,18 @@
+[
+  {
+    "comparison": "C_minus_B",
+    "macro_mean_daily_brier_difference": -0.0043574522048824,
+    "ci_low": -0.0051871420379688,
+    "ci_high": -0.0035528770096985,
+    "bootstrap_reps": 2000,
+    "resampling_unit": "common calendar day; macro-average across 19 cities"
+  },
+  {
+    "comparison": "C_minus_A",
+    "macro_mean_daily_brier_difference": -0.0157130139997982,
+    "ci_low": -0.0189259781277674,
+    "ci_high": -0.0123574082219077,
+    "bootstrap_reps": 2000,
+    "resampling_unit": "common calendar day; macro-average across 19 cities"
+  }
+]

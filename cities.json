@@ -1,0 +1,116 @@
+[
+  {
+    "city": "Manila",
+    "island": "Luzon",
+    "lat": 14.5995,
+    "lon": 120.9842
+  },
+  {
+    "city": "Quezon City",
+    "island": "Luzon",
+    "lat": 14.676,
+    "lon": 121.0437
+  },
+  {
+    "city": "Baguio",
+    "island": "Luzon",
+    "lat": 16.4155,
+    "lon": 120.5949
+  },
+  {
+    "city": "Vigan",
+    "island": "Luzon",
+    "lat": 17.573,
+    "lon": 120.389
+  },
+  {
+    "city": "Legazpi",
+    "island": "Luzon",
+    "lat": 13.1462,
+    "lon": 123.736
+  },
+  {
+    "city": "Naga",
+    "island": "Luzon",
+    "lat": 13.6218,
+    "lon": 123.1957
+  },
+  {
+    "city": "Tuguegarao",
+    "island": "Luzon",
+    "lat": 17.6133,
+    "lon": 121.7247
+  },
+  {
+    "city": "Cebu City",
+    "island": "Visayas",
+    "lat": 10.3157,
+    "lon": 123.8857
+  },
+  {
+    "city": "Iloilo City",
+    "island": "Visayas",
+    "lat": 10.72,
+    "lon": 122.5611
+  },
+  {
+    "city": "Bacolod",
+    "island": "Visayas",
+    "lat": 10.6765,
+    "lon": 122.951
+  },
+  {
+    "city": "Tacloban",
+    "island": "Visayas",
+    "lat": 11.2431,
+    "lon": 125.1761
+  },
+  {
+    "city": "Calbayog",
+    "island": "Visayas",
+    "lat": 12.0667,
+    "lon": 124.6
+  },
+  {
+    "city": "Dumaguete",
+    "island": "Visayas",
+    "lat": 9.3061,
+    "lon": 123.2969
+  },
+  {
+    "city": "Davao City",
+    "island": "Mindanao",
+    "lat": 7.1907,
+    "lon": 125.4553
+  },
+  {
+    "city": "Cagayan de Oro",
+    "island": "Mindanao",
+    "lat": 8.5483,
+    "lon": 124.6639
+  },
+  {
+    "city": "Zamboanga City",
+    "island": "Mindanao",
+    "lat": 6.9214,
+    "lon": 122.079
+  },
+  {
+    "city": "General Santos City",
+    "island": "Mindanao",
+    "lat": 6.1164,
+    "lon": 125.1717
+  },
+  {
+    "city": "Butuan City",
+    "island": "Mindanao",
+    "lat": 8.9477,
+    "lon": 125.5426
+  },
+  {
+    "city": "Cotabato City",
+    "island": "Mindanao",
+    "lat": 7.2244,
+    "lon": 124.2419
+  }
+]
