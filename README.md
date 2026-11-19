@@ -1,5 +1,7 @@
 # 🌧️ Philippine Weather Probability Observatory — Live Edition (v2.0)
 
+> 🌐 **Try the live app: [fritzbriones.github.io/ph-weather-observatory](https://fritzbriones.github.io/ph-weather-observatory)**
+
 A live research observatory for rainfall forecast probabilities across **19 Philippine cities** in **Luzon, Visayas, and Mindanao**, with two strictly separated layers:
 
 | Layer | What it shows | Status |
