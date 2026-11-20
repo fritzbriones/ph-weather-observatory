@@ -1,0 +1,37 @@
+{
+  "baseline_tag": "V2.0",
+  "baseline_commit": "c2971594a779d09bf5f965b3a040efe52e8eba33",
+  "authority": "V2.0 Release asset V2.0-SHA256SUMS.txt (independently verified 2026-11-20)",
+  "required_inventory": [
+    "src/data/cities.json",
+    "src/data/city-summary.json",
+    "src/data/island-comparison.json",
+    "src/data/model-comparison.json"
+  ],
+  "files": {
+    "src/data/cities.json": {
+      "sha256": "478cbd8ae25c7f3155499a99fa2df77eb88b427af8f03f983cb5859497e68c77",
+      "size_bytes": 1868
+    },
+    "src/data/city-summary.json": {
+      "sha256": "ecb17a2949ebfd620eeb9ea58a948d640351f4b5e902ca0f715648aa0b0a438b",
+      "size_bytes": 7240
+    },
+    "src/data/island-comparison.json": {
+      "sha256": "7f159f8f7febbbb643cd4253398ba1666072ef536eaeb6f6b877f8c20474c592",
+      "size_bytes": 2086
+    },
+    "src/data/model-comparison.json": {
+      "sha256": "09b21336f927c20a0174a9ea33cd172d9d89ad978fddb79e4a885bc85e9b2369",
+      "size_bytes": 558
+    }
+  },
+  "additive_artifacts": {
+    "src/data/reliability-bins.json": {
+      "sha256": "e043854f59fc9b3e58a4b0aaea21e03d6d6ab99e35a71bf1f982701c527acb22",
+      "size_bytes": 16964,
+      "added_date": "2026-11-20",
+      "provenance_note": "Derived deterministically from research/om_hourly_reliability.json (original frozen source sha b255933d507a1e1aa4ad8fff5dfa8b2a965e1096318ddddeeb09df7a13ca96c3; committed reformatted variant sha e45e9b2ba4b30139927ddb703a7bb61c22c62e8946696d52bf74c7a5b5f22535) by research/extract_reliability_bins.py; pure pass-through, no values recomputed; reproduction test passed in-repo."
+    }
+  }
+}
