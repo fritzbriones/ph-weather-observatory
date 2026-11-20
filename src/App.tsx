@@ -433,7 +433,7 @@ export default function App() {
       <section className="takeaway" aria-label="Research summary">
         <p>
           In the frozen exploratory study (May 2024 – Aug 2025), statistical recalibration lowered the
-          Brier score in <b>{citiesImproved} of {results.length}</b> cities, with a national macro
+          Brier score versus raw forecasts in <b>{citiesImproved} of {results.length}</b> cities, with a national macro
           improvement of <b>{signed(cACompare.macro_mean_daily_brier_difference)}</b> (95% CI&nbsp;
           [{fmt(cACompare.ci_low)}, {fmt(cACompare.ci_high)}]).
           These are archived exploratory findings, not a promise about tomorrow's forecast.
