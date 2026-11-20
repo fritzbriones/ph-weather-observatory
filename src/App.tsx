@@ -116,14 +116,18 @@ function LiveTab() {
       </div>
 
       {state.kind === 'error' && (
-        <div className="live-error">
+        <div className="live-error" role="alert">
           <strong>Live data unavailable</strong>
-          <span>Open-Meteo could not be reached ({state.message}). The frozen research results remain available in the Research Lab.</span>
+          <span>Open-Meteo could not be reached ({state.message}). Check your connection, then retry. The frozen research results remain available in the Research Lab.</span>
           <button className="live-refresh" onClick={() => void load()}>Retry</button>
         </div>
       )}
 
-      {state.kind === 'loading' && <div className="live-loading">Retrieving forecasts for 19 cities…</div>}
+      {state.kind === 'loading' && (
+        <div className="live-loading" role="status" aria-live="polite">
+          Retrieving live forecasts for all 19 cities (one batched request)…
+        </div>
+      )}
 
       {state.kind === 'ready' && (
         <>
@@ -136,6 +140,8 @@ function LiveTab() {
                   key={c.city}
                   className={`live-city ${c.city === currentCity ? 'active' : ''}`}
                   onClick={() => setSelected(c.city)}
+                  aria-pressed={c.city === currentCity}
+                  aria-label={`${c.city}, current rainfall probability ${pct(p)}, ${c.island}`}
                 >
                   <span className="live-city-name">{c.city}</span>
                   <span className={`live-pct ${p === null ? 'na' : p >= 60 ? 'wet' : p >= 30 ? 'mid' : 'dry'}`}>{pct(p)}</span>
@@ -383,6 +389,13 @@ function MethodTab() {
 
 export default function App() {
   const [tab, setTab] = useState<Tab>('live');
+
+  // Takeaway values are computed at runtime from the frozen research JSONs bundled
+  // with this app (city-summary.json, model-comparison.json). No number is typed
+  // by hand, so the copy cannot drift from the frozen record.
+  const citiesImproved = results.filter((r) => r.delta_C_minus_A < 0).length;
+  const cACompare = comps.find((c) => c.comparison === 'C_minus_A')!;
+
   return (
     <>
       <header className="topbar">
@@ -404,7 +417,7 @@ export default function App() {
             <span><span aria-hidden="true">▤</span> Frozen research: May 2024 – Aug 2025</span>
           </div>
         </div>
-        <div className="hero-visual">
+        <div className="hero-visual" aria-hidden="true">
           <div className="orb orb-one" /><div className="orb orb-two" />
           <div className="rain-card">
             <div className="rain-card-top"><span>HOURLY VERIFICATION</span><span className="pulse" /></div>
@@ -415,6 +428,20 @@ export default function App() {
           </div>
           <div className="floating-chip"><span className="chip-dot" /> Model comparison</div>
         </div>
+      </section>
+
+      <section className="takeaway" aria-label="Research summary">
+        <p>
+          In the frozen exploratory study (May 2024 – Aug 2025), statistical recalibration lowered the
+          Brier score in <b>{citiesImproved} of {results.length}</b> cities, with a national macro
+          improvement of <b>{signed(cACompare.macro_mean_daily_brier_difference)}</b> (95% CI&nbsp;
+          [{fmt(cACompare.ci_low)}, {fmt(cACompare.ci_high)}]).
+          These are archived exploratory findings, not a promise about tomorrow's forecast.
+          Live probabilities on this site are served unverified; a validation on a new, untouched period is planned.
+        </p>
+        <button className="takeaway-link" onClick={() => setTab('research')}>
+          Explore the Research Lab <span aria-hidden="true">→</span>
+        </button>
       </section>
 
       <nav className="tabs" aria-label="Sections">
