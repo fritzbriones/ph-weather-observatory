@@ -1,4 +1,3 @@
-
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import citiesJson from './data/cities.json';
 import citySummaryJson from './data/city-summary.json';
@@ -218,7 +217,6 @@ function LiveTab() {
     </section>
   );
 }
-
 /* ------------------------------------------------------------- RESEARCH */
 
 function ResearchTab() {
@@ -254,291 +252,246 @@ function ResearchTab() {
           <strong>Research results — frozen, exploratory (May 2024 – Aug 2025).</strong>
           <span>
             These are the archived results of the model-comparison study. They are independent of the live forecast
-            tab and never update automatically.
+            tab and never update automatically. No confirmatory claim is made: a future untouched period is
+            reserved for validation.
           </span>
         </div>
       </div>
 
-      <div className="research-toolbar">
-        <label>
-          REGION
-          <select value={region} onChange={(e) => setRegion(e.target.value)}>
-            <option>All regions</option>
-            <option>Luzon</option>
-            <option>Visayas</option>
-            <option>Mindanao</option>
-          </select>
-        </label>
-        <label>
-          METRIC
-          <select value={metric} onChange={(e) => setMetric(e.target.value as 'brier' | 'logloss')}>
-            <option value="brier">Brier score</option>
-            <option value="logloss">Log loss</option>
-          </select>
-        </label>
-        <label>
-          SORT BY
-          <select value={sort} onChange={(e) => setSort(e.target.value)}>
-            <option>Model C Brier</option>
-            <option>Largest C gain</option>
-            <option>City name</option>
-          </select>
-        </label>
-      </div>
+      <section className="section-head">
+        <div><span className="section-index">01 / PERFORMANCE SNAPSHOT</span><h2>What the models show</h2></div>
+        <p>Lower Brier score and log loss indicate better probabilistic performance.</p>
+      </section>
+      <section className="stat-grid">
+        <div className="stat-card"><span className="stat-label">MODEL C vs. RAW MODEL A</span><strong>{signed(cA.macro_mean_daily_brier_difference)}</strong><span className="stat-foot">Macro daily Brier difference · 95% CI [{fmt(cA.ci_low)}, {fmt(cA.ci_high)}]</span></div>
+        <div className="stat-card"><span className="stat-label">MODEL C vs. MODEL B</span><strong>{signed(cB.macro_mean_daily_brier_difference)}</strong><span className="stat-foot">Incremental daily Brier difference · 95% CI [{fmt(cB.ci_low)}, {fmt(cB.ci_high)}]</span></div>
+        <div className="stat-card"><span className="stat-label">CITIES IMPROVED BY MODEL C</span><strong>18 <small>/ 19</small></strong><span className="stat-foot">Compared with logistic recalibration (Model B)</span></div>
+        <div className="stat-card"><span className="stat-label">BEST / HIGHEST MODEL C BRIER</span><strong>{best.city}</strong><span className="stat-foot">Lowest: {fmt(best.brier_C)} · Highest: {worst.city} ({fmt(worst.brier_C)})</span></div>
+      </section>
 
-      <div className="research-grid">
-        {ordered.map((r) => (
-          <button
-            key={r.city}
-            className={`research-city ${chosen.city === r.city ? 'active' : ''}`}
-            onClick={() => setSelected(r.city)}
-            aria-pressed={chosen.city === r.city}
-          >
-            <span className="research-city-name">{r.city}</span>
-            <span className="research-city-score">{fmt(metric === 'brier' ? r.brier_C : r.logloss_C)}</span>
-            <span className="research-city-region">{r.island}</span>
-          </button>
-        ))}
-      </div>
-
-      <div className="research-legend">
-        <span>Selected city: <b>{chosen.city}</b> · {selectedRegion}</span>
-        <span>Lower scores indicate better probabilistic accuracy.</span>
-      </div>
-
-      <div className="panel detail-panel">
-        <div className="panel-head">
-          <div>
-            <span className="panel-kicker">CITY MODEL COMPARISON</span>
-            <h3>{chosen.city}</h3>
-          </div>
-          <span className="panel-kicker">EXPLORATORY</span>
+      <section className="section-head section-gap">
+        <div><span className="section-index">02 / EXPLORE BY ISLAND GROUP</span><h2>Compare city-level results</h2></div>
+        <div className="filters">
+          <label>REGION<select value={region} onChange={(e) => setRegion(e.target.value)}><option>All regions</option><option>Luzon</option><option>Visayas</option><option>Mindanao</option></select><span aria-hidden="true">⌄</span></label>
+          <label>RANK BY<select value={sort} onChange={(e) => setSort(e.target.value)}><option>Model C Brier</option><option>Largest C gain</option><option>City name</option></select><span aria-hidden="true">⌄</span></label>
         </div>
-
-        <div className="model-bars">
-          {(['A', 'B', 'C'] as const).map((m) => {
-            const value = metric === 'brier' ? chosen[`brier_${m}`] : chosen[`logloss_${m}`];
-            return (
-              <div className="model-bar-row" key={m}>
-                <span>Model {m}</span>
-                <div className="model-bar-track">
-                  <div className={`model-bar model-${m.toLowerCase()}`} style={{ width: `${(value / max) * 100}%` }} />
-                </div>
-                <b>{fmt(value)}</b>
+      </section>
+      <section className="explore-grid">
+        <div className="panel city-panel">
+          <div className="panel-head">
+            <div><span className="panel-kicker">CITY SCORECARD</span><h3>{region === 'All regions' ? 'All 19 cities' : region}</h3></div>
+            <span className="count-pill">{ordered.length} CITIES</span>
+          </div>
+          <div className="table-wrap">
+            <table>
+              <thead><tr><th>CITY</th><th>ISLAND GROUP</th><th>MODEL A</th><th>MODEL B</th><th>MODEL C</th><th>Δ C−A</th></tr></thead>
+              <tbody>
+                {ordered.map((r) => (
+                  <tr key={r.city} className={chosen.city === r.city ? 'selected' : ''}>
+                    <td><button className="city-link" aria-pressed={chosen.city === r.city} onClick={() => setSelected(r.city)}>{r.city}</button></td>
+                    <td><span className={`region-tag ${String(r.island ?? '').toLowerCase()}`}>{r.island ?? '—'}</span></td>
+                    <td>{fmt(r.brier_A)}</td><td>{fmt(r.brier_B)}</td><td className="strong-cell">{fmt(r.brier_C)}</td>
+                    <td className={r.delta_C_minus_A < 0 ? 'improve' : 'decline'}>{signed(r.delta_C_minus_A)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="table-note">Select a city to inspect its scores. Δ is Model C minus Model A; negative values indicate lower loss.</div>
+        </div>
+        <div className="panel detail-panel">
+          <div className="panel-head">
+            <div><span className="panel-kicker">CITY DETAIL</span><h3>{chosen.city}</h3></div>
+            <span className={`region-tag ${selectedRegion.toLowerCase()}`}>{selectedRegion}</span>
+          </div>
+          {reliability[chosen.city] && (
+            <div className="city-card">
+              <p>
+                When the forecast said <b>{reliability[chosen.city].bins[reliability[chosen.city].bins.length - 1].range}%</b> rain in {chosen.city},
+                rain actually fell about <b>{Math.round(reliability[chosen.city].bins[reliability[chosen.city].bins.length - 1].observed_freq * 10)} times out of 10</b>{' '}
+                in the frozen study (May 2024 – Aug 2025). A perfectly calibrated forecast would be 10 out of 10.
+              </p>
+              <div className="bins-grid" role="img" aria-label={`Reliability bins for ${chosen.city}: observed rain frequency per forecast bin, from the frozen study`}>
+                {reliability[chosen.city].bins.map((b) => {
+                  const lo = parseInt(b.range, 10);
+                  const expected = lo + 4.5;
+                  return (
+                    <div className="bin-row" key={b.range}>
+                      <span className="bin-label">{b.range}</span>
+                      <div className="bin-track">
+                        <div className="bin-bar" style={{ width: `${Math.max(b.observed_freq * 100, 1.5)}%` }} />
+                        <span className="bin-tick" style={{ left: `${expected}%` }} aria-hidden="true" />
+                      </div>
+                      <span className="bin-val">{Math.round(b.observed_freq * 100)}%</span>
+                    </div>
+                  );
+                })}
               </div>
-            );
-          })}
-        </div>
-
-        <div className="city-results">
-          <div><span>Model C vs A</span><b>{signed(chosen.delta_C_minus_A)}</b></div>
-          <div><span>Model C vs B</span><b>{signed(chosen.delta_C_minus_B)}</b></div>
-          <div><span>City hourly observations</span><b>{chosen.n_hours.toLocaleString()}</b></div>
-        </div>
-      </div>
-
-      <div className="panel">
-        <div className="panel-head">
-          <div>
-            <span className="panel-kicker">CROSS-CITY SUMMARY</span>
-            <h3>Model C performance</h3>
-          </div>
-        </div>
-        <div className="summary-stats">
-          <div><span>Best city</span><b>{best.city}</b><small>{fmt(best.brier_C)} Brier</small></div>
-          <div><span>Highest city score</span><b>{worst.city}</b><small>{fmt(worst.brier_C)} Brier</small></div>
-          <div><span>Model C − B</span><b>{signed(cB.mean_delta)}</b><small>{cB.cities_improved} of {cB.n_cities} cities improved</small></div>
-          <div><span>Model C − A</span><b>{signed(cA.mean_delta)}</b><small>{cA.cities_improved} of {cA.n_cities} cities improved</small></div>
-        </div>
-      </div>
-
-      <div className="panel reliability-panel">
-        <div className="panel-head">
-          <div>
-            <span className="panel-kicker">PROBABILITY RELIABILITY</span>
-            <h3>{chosen.city}: forecast vs observed frequency</h3>
-          </div>
-          <span className="panel-kicker">ARCHIVED HOURLY BINS</span>
-        </div>
-        <p className="panel-note">
-          Each bin groups hourly forecasts by predicted probability. The observed frequency is the share of
-          those hours in which rain occurred. A perfectly calibrated forecast would have observed frequency
-          close to the predicted probability.
-        </p>
-        <div className="reliability-chart">
-          <div className="reliability-axis">
-            <span>100%</span><span>75%</span><span>50%</span><span>25%</span><span>0%</span>
-          </div>
-          <div className="reliability-plot">
-            <div className="reliability-gridlines">
-              {[0, 25, 50, 75, 100].map((v) => <i key={v} style={{ bottom: `${v}%` }} />)}
+              <span className="city-card-foot">
+                Bar: share of hours when rain actually followed that forecast · tick: a perfectly calibrated forecast · labels at far right show observed frequency · frozen record, {reliability[chosen.city].n_hours.toLocaleString()} hours
+              </span>
             </div>
-            <div className="reliability-diagonal" />
-            {reliability[chosen.city]?.bins.map((bin) => (
-              <div
-                className="reliability-point"
-                key={bin.range}
-                title={`${bin.range}: predicted midpoint ${bin.midpoint_pct}%, observed ${bin.observed_freq === null ? 'not available' : `${(bin.observed_freq * 100).toFixed(1)}%`}, n=${bin.n.toLocaleString()}`}
-                style={{
-                  left: `${bin.midpoint_pct}%`,
-                  bottom: `${(bin.observed_freq ?? 0) * 100}%`,
-                  opacity: bin.n === 0 || bin.observed_freq === null ? 0.2 : 1,
-                }}
-              />
-            ))}
+          )}
+          <div className="metric-switch">
+            <button className={metric === 'brier' ? 'active' : ''} onClick={() => setMetric('brier')}>Brier score</button>
+            <button className={metric === 'logloss' ? 'active' : ''} onClick={() => setMetric('logloss')}>Log loss</button>
           </div>
+          <div className="bar-chart">
+            {(['A', 'B', 'C'] as const).map((m) => {
+              const v = metric === 'brier' ? chosen[`brier_${m}` as 'brier_A'] : chosen[`logloss_${m}` as 'logloss_A'];
+              return (
+                <div className="bar-row" key={m}>
+                  <span className="bar-name">MODEL {m}</span>
+                  <div className="bar-track"><div className={`bar-fill bar-${m.toLowerCase()}`} style={{ width: `${Math.min(v / max, 1) * 100}%` }} /></div>
+                  <b>{fmt(v)}</b>
+                </div>
+              );
+            })}
+          </div>
+          <div className="detail-foot">
+            <div><span>OUT-OF-FOLD HOURS</span><strong>{chosen.oof_hours.toLocaleString()}</strong></div>
+            <div><span>OUT-OF-FOLD DAYS</span><strong>{chosen.oof_days}</strong></div>
+          </div>
+          <div className="insight"><span aria-hidden="true">ⓘ</span><span>Model C {chosen.delta_C_minus_A < 0 ? 'reduced' : 'did not reduce'} {metric === 'brier' ? 'Brier score' : 'log loss'} versus Model A by {fmt(Math.abs(metric === 'brier' ? chosen.delta_C_minus_A : chosen.logloss_C - chosen.logloss_A))}.</span></div>
         </div>
-        <div className="reliability-axis-labels">
-          <span>Predicted rainfall probability</span>
-          <span>Observed rainfall frequency</span>
-        </div>
-        <div className="reliability-table-wrap">
-          <table className="reliability-table">
-            <thead>
-              <tr><th>Forecast bin</th><th>Hours</th><th>Observed frequency</th></tr>
-            </thead>
-            <tbody>
-              {reliability[chosen.city]?.bins.map((bin) => (
-                <tr key={bin.range}>
-                  <td>{bin.range}</td>
-                  <td>{bin.n.toLocaleString()}</td>
-                  <td>{bin.observed_freq === null ? '–' : `${(bin.observed_freq * 100).toFixed(1)}%`}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p className="panel-note">
-          Source: archived Open-Meteo historical forecast/reanalysis comparison. Bins are pass-through
-          summaries from the frozen reliability artifact; no values are recomputed in this interface.
-        </p>
-      </div>
+      </section>
+
+      <section className="section-head section-gap">
+        <div><span className="section-index">03 / REGIONAL CONTEXT</span><h2>Model gains by island group</h2></div>
+        <p>These are within-region model improvements, not tests of differences in regional reliability.</p>
+      </section>
+      <section className="region-grid">
+        {(['Luzon', 'Visayas', 'Mindanao'] as const).map((name, i) => {
+          const a = regions.find((r) => r.island === name && r.comparison === 'C_minus_A')!;
+          const b = regions.find((r) => r.island === name && r.comparison === 'C_minus_B')!;
+          return (
+            <div className="region-card" key={name}>
+              <div className="region-card-top"><span className={`region-mark mark-${i}`} /><h3>{name}</h3><span>{a.cities} CITIES</span></div>
+              <div className="region-number">{signed(a.island_macro_mean_daily_brier_diff)}</div>
+              <div className="region-caption">Model C − Model A · daily Brier difference</div>
+              <div className="region-ci">95% CI [{fmt(a.ci_low)}, {fmt(a.ci_high)}]</div>
+              <div className="region-rule" />
+              <div className="region-sub">Incremental C − B: <b>{signed(b.island_macro_mean_daily_brier_diff)}</b></div>
+            </div>
+          );
+        })}
+      </section>
     </>
   );
 }
 
-/* ------------------------------------------------------------- METHODOLOGY */
+/* ------------------------------------------------------------ METHOD */
 
 function MethodTab() {
   return (
-    <div className="method-grid">
-      <div className="panel">
-        <span className="panel-kicker">STUDY DESIGN</span>
-        <h3>What was evaluated?</h3>
-        <p>
-          This exploratory study examines the reliability of hourly rainfall-probability forecasts across
-          19 Philippine cities in Luzon, Visayas, and Mindanao. The archived evaluation window runs from
-          May 2024 through August 2025.
-        </p>
-        <p>
-          The unit of analysis is the city-hour forecast. Each forecast is compared with the corresponding
-          observed rainfall outcome. The research results are frozen and do not change when live forecasts
-          refresh.
-        </p>
-      </div>
-
-      <div className="panel">
-        <span className="panel-kicker">MODEL COMPARISON</span>
-        <h3>Three forecast configurations</h3>
-        <p>
-          Models A, B, and C are compared using Brier score and log loss. Both are proper scoring rules:
-          lower values indicate better probabilistic accuracy.
-        </p>
-        <p>
-          Model comparisons are descriptive and exploratory. Differences should not be interpreted as
-          causal effects or proof that one configuration will perform better in future periods.
-        </p>
-      </div>
-
-      <div className="panel">
-        <span className="panel-kicker">CALIBRATION</span>
-        <h3>Forecast probability vs observed frequency</h3>
-        <p>
-          Reliability bins group forecasts by their predicted probability. For example, forecasts in the
-          60–69% bin should be followed by rainfall approximately 60–69% of the time if they are well
-          calibrated over the evaluation sample.
-        </p>
-        <p>
-          The chart compares each bin's predicted midpoint with its archived observed rainfall frequency.
-          Bins with no observations or unavailable frequencies are shown with reduced opacity.
-        </p>
-      </div>
-
-      <div className="panel">
-        <span className="panel-kicker">INTERPRETATION</span>
-        <h3>What this does—and does not—show</h3>
-        <p>
-          The results describe performance within the archived evaluation period and selected cities.
-          They do not establish performance in other locations, seasons, or future forecast periods.
-        </p>
-        <p>
-          Live forecasts are displayed separately for practical exploration. They are not part of the frozen
-          evaluation and should not be treated as validated predictions.
-        </p>
-      </div>
-
-      <div className="panel">
-        <span className="panel-kicker">DATA PROVENANCE</span>
-        <h3>Archived and live data are separated</h3>
-        <p>
-          Research Lab metrics and reliability bins are loaded from local, version-controlled JSON
-          artifacts. Live forecasts are retrieved separately from the Open-Meteo API.
-        </p>
-        <p>
-          This separation preserves the research record: refreshing the live forecast cannot alter the
-          archived model-comparison results.
-        </p>
-      </div>
-    </div>
+    <>
+      <section className="section-head"><div><span className="section-index">04 / HOW TO READ THIS OBSERVATORY</span><h2>Transparent by design.</h2></div><p>Two data regimes coexist in this application and are never merged.</p></section>
+      <section className="method-section">
+        <div className="method-copy">
+          <p><strong>Live forecast tab.</strong> Current probabilities retrieved from the Open-Meteo live forecast API at page load, in a single batched request for all 19 cities. Shown as served, unverified, with a retrieval timestamp. Not part of any research evaluation.</p>
+          <p><strong>Research Lab tab.</strong> Frozen results of an exploratory model comparison over May 2024 – Aug 2025: hourly precipitation probabilities evaluated against ERA5 (seamless) hourly precipitation, with an event defined as precipitation greater than 0.1 mm in the hour. The archived probability series is stitched; individual forecast-run and lead-time provenance cannot be verified.</p>
+          <a className="text-link" href="https://open-meteo.com/en/docs" target="_blank" rel="noreferrer">Open-Meteo API documentation <span aria-hidden="true">↗</span></a>
+          <a className="text-link" href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview" target="_blank" rel="noreferrer">ERA5 (Copernicus CDS) <span aria-hidden="true">↗</span></a>
+        </div>
+        <div className="method-cards">
+          <div><span className="model-badge a">A</span><div><strong>Raw forecast</strong><p>Archived hourly precipitation probability, as served.</p></div></div>
+          <div><span className="model-badge b">B</span><div><strong>Logistic recalibration</strong><p>City-specific logistic model using logit(Model A) only.</p></div></div>
+          <div><span className="model-badge c">C</span><div><strong>Recalibration + covariates</strong><p>L2 logistic model adding forecast-side temperature, humidity, and cloud cover.</p></div></div>
+        </div>
+      </section>
+      <section className="limitations">
+        <div className="limit-title"><span aria-hidden="true">⚠</span><h3>Interpretation guardrails</h3></div>
+        <ul>
+          <li>The full historical period was previously inspected; these results are exploratory, not a locked independent test.</li>
+          <li>ERA5 is a gridded reference dataset, not ground-truth station observation.</li>
+          <li>Forecast probability lead-time provenance is not verified; no fixed-lead claim is made.</li>
+          <li>Model C covariates come from the same forecast product, not independent observations.</li>
+          <li>Model improvement does not establish whether regional forecast reliability differs. That requires a separate direct regional test.</li>
+          <li>Live forecasts displayed on this site are unverified and are not research output.</li>
+        </ul>
+      </section>
+    </>
   );
 }
 
-/* ------------------------------------------------------------------- APP */
+/* ----------------------------------------------------------------- APP */
 
 export default function App() {
-  const [active, setActive] = useState<Tab>('live');
+  const [tab, setTab] = useState<Tab>('live');
+
+  // Takeaway values are computed at runtime from the frozen research JSONs bundled
+  // with this app (city-summary.json, model-comparison.json). No number is typed
+  // by hand, so the copy cannot drift from the frozen record.
+  const citiesImproved = results.filter((r) => r.delta_C_minus_A < 0).length;
+  const cACompare = comps.find((c) => c.comparison === 'C_minus_A')!;
 
   return (
-    <main className="app-shell">
-      <header className="app-header">
-        <div className="header-inner">
-          <div className="brand">
-            <span className="brand-mark" aria-hidden="true">◉</span>
-            <div>
-              <p className="eyebrow">PHILIPPINE WEATHER PROBABILITY OBSERVATORY</p>
-              <h1>Rainfall Forecasts, Explained</h1>
-              <p className="header-subtitle">
-                Explore live city forecasts and the research behind probability reliability.
-              </p>
-            </div>
-          </div>
-          <span className="version-tag">V3 · CITY CARDS</span>
+    <>
+      <header className="topbar">
+        <div className="brand">
+          <div className="brand-icon"><span aria-hidden="true">☔</span></div>
+          <div><span className="eyebrow">RESEARCH OBSERVATORY</span><strong>PH WEATHER <i>PROBABILITY</i></strong></div>
         </div>
+        <div className="top-meta"><span className="live-dot" /> LIVE EDITION · 19 CITIES</div>
       </header>
 
-      <nav className="tab-nav" aria-label="Main navigation">
-        {TABS.map((tab) => (
-          <button
-            key={tab.id}
-            className={active === tab.id ? 'active' : ''}
-            onClick={() => setActive(tab.id)}
-            aria-current={active === tab.id ? 'page' : undefined}
-          >
-            {tab.label}
+      <section className="hero">
+        <div className="hero-copy">
+          <div className="kicker"><span /> PHILIPPINES · LUZON / VISAYAS / MINDANAO</div>
+          <h1>How reliable are<br /><em>rainfall probabilities?</em></h1>
+          <p className="hero-lede">A live look at rainfall forecast probabilities across 19 Philippine cities — beside a frozen exploratory study of whether recalibration improves them.</p>
+          <div className="hero-tags">
+            <span><span aria-hidden="true">◉</span> Live Open-Meteo data</span>
+            <span><span aria-hidden="true">⌖</span> 3 island groups</span>
+            <span><span aria-hidden="true">▤</span> Frozen research: May 2024 – Aug 2025</span>
+          </div>
+        </div>
+        <div className="hero-visual" aria-hidden="true">
+          <div className="orb orb-one" /><div className="orb orb-two" />
+          <div className="rain-card">
+            <div className="rain-card-top"><span>HOURLY VERIFICATION</span><span className="pulse" /></div>
+            <div className="rain-prob">70<span>%</span></div>
+            <div className="rain-label">Illustrative probability</div>
+            <div className="rain-bars"><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /></div>
+            <div className="rain-card-bottom"><span>FORECAST</span><span>PRECIPITATION</span></div>
+          </div>
+          <div className="floating-chip"><span className="chip-dot" /> Model comparison</div>
+        </div>
+      </section>
+
+      <section className="takeaway" aria-label="Research summary">
+        <p>
+          In the frozen exploratory study (May 2024 – Aug 2025), statistical recalibration lowered the
+          Brier score versus raw forecasts in <b>{citiesImproved} of {results.length}</b> cities, with a national macro
+          improvement of <b>{signed(cACompare.macro_mean_daily_brier_difference)}</b> (95% CI&nbsp;
+          [{fmt(cACompare.ci_low)}, {fmt(cACompare.ci_high)}]).
+          These are archived exploratory findings, not a promise about tomorrow's forecast.
+          Live probabilities on this site are served unverified; a validation on a new, untouched period is planned.
+        </p>
+        <button className="takeaway-link" onClick={() => setTab('research')}>
+          Explore the Research Lab <span aria-hidden="true">→</span>
+        </button>
+      </section>
+
+      <nav className="tabs" aria-label="Sections">
+        {TABS.map((t) => (
+          <button key={t.id} className={tab === t.id ? 'tab active' : 'tab'} onClick={() => setTab(t.id)} aria-current={tab === t.id ? 'page' : undefined}>
+            {t.label}
           </button>
         ))}
       </nav>
 
-      <div className="content-wrap">
-        {active === 'live' && <LiveTab />}
-        {active === 'research' && <ResearchTab />}
-        {active === 'method' && <MethodTab />}
-      </div>
+      <main>
+        {tab === 'live' && <LiveTab />}
+        {tab === 'research' && <ResearchTab />}
+        {tab === 'method' && <MethodTab />}
+      </main>
 
-      <footer className="app-footer">
-        <p>Philippine Weather Probability Observatory · V3 City Cards</p>
-        <p>Research results are exploratory and frozen. Live forecasts are unverified and separate from the research evaluation.</p>
+      <footer>
+        <div className="footer-brand"><span aria-hidden="true">☔</span> PH WEATHER PROBABILITY OBSERVATORY</div>
+        <span>Live data: Open-Meteo forecast API · Research data: Open-Meteo Historical Forecast API and ERA5 (seamless) · ERA5 is a gridded reference, not ground truth.</span>
+        <span>Research results exploratory · Live forecasts unverified · GitHub Edition v2.0</span>
       </footer>
-    </main>
+    </>
   );
 }
