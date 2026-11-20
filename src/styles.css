@@ -8,14 +8,11 @@ button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #72d
 .city-link{font:inherit}
 
 /* ================= Live Edition v2.0 additions ================= */
-
 .tabs{display:flex;gap:8px;max-width:1120px;margin:8px auto 24px;padding:0 24px;flex-wrap:wrap}
 .tab{font:600 12px/1 inherit;letter-spacing:.12em;text-transform:uppercase;color:#8fb3c7;background:rgba(255,255,255,.04);border:1px solid rgba(143,179,199,.25);border-radius:999px;padding:10px 18px;cursor:pointer;transition:.15s}
 .tab:hover{color:#e8f0f5;border-color:rgba(143,179,199,.5)}
 .tab.active{color:#071827;background:#48d6ff;border-color:#48d6ff}
-
 main{max-width:1120px;margin:0 auto;padding:0 24px 48px}
-
 .live-banner,.frozen-banner{display:flex;gap:12px;align-items:flex-start;border-radius:14px;padding:14px 16px;margin-bottom:20px;font-size:13px;line-height:1.5}
 .live-banner{background:rgba(255,196,66,.08);border:1px solid rgba(255,196,66,.35)}
 .frozen-banner{background:rgba(72,214,255,.06);border:1px solid rgba(72,214,255,.3)}
@@ -23,7 +20,6 @@ main{max-width:1120px;margin:0 auto;padding:0 24px 48px}
 .live-banner strong{color:#ffd97a}
 .frozen-banner strong{color:#9ae6ff}
 .live-banner span,.frozen-banner span{color:#9db8c9;display:block}
-
 .live-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
 .live-region{display:flex;flex-direction:column;gap:4px;font-size:10px;letter-spacing:.14em;color:#8fb3c7}
 .live-region select{font:inherit;font-size:13px;background:#0b2537;color:#e8f0f5;border:1px solid rgba(143,179,199,.3);border-radius:8px;padding:8px 12px}
@@ -31,12 +27,10 @@ main{max-width:1120px;margin:0 auto;padding:0 24px 48px}
 .live-updated{font-size:11px;color:#8fb3c7}
 .live-refresh{font:600 12px/1 inherit;letter-spacing:.08em;text-transform:uppercase;color:#071827;background:#48d6ff;border:0;border-radius:999px;padding:10px 16px;cursor:pointer}
 .live-refresh:disabled{opacity:.5;cursor:wait}
-
 .live-error{background:rgba(255,105,97,.1);border:1px solid rgba(255,105,97,.4);border-radius:14px;padding:16px;margin-bottom:16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
 .live-error strong{color:#ff9d97;margin-right:8px}
 .live-error span{color:#c9d7e2;font-size:13px;flex-basis:100%}
 .live-loading{color:#8fb3c7;padding:32px 0;text-align:center;letter-spacing:.06em}
-
 .live-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:16px}
 .live-city{display:flex;flex-direction:column;align-items:flex-start;gap:2px;background:rgba(255,255,255,.03);border:1px solid rgba(143,179,199,.2);border-radius:10px;padding:10px 12px;cursor:pointer;text-align:left;transition:.15s}
 .live-city:hover{border-color:rgba(143,179,199,.5)}
@@ -49,12 +43,10 @@ main{max-width:1120px;margin:0 auto;padding:0 24px 48px}
 .live-pct.dry{color:#7fe3a6}
 .live-pct.na{color:#5e7f93}
 .live-mean{font-size:12px;color:#8fb3c7;margin-bottom:20px}
-
 .live-detail{margin-top:4px}
 .live-horizon{display:flex;gap:6px}
 .live-horizon button{font:600 11px/1 inherit;letter-spacing:.08em;color:#8fb3c7;background:transparent;border:1px solid rgba(143,179,199,.3);border-radius:999px;padding:6px 12px;cursor:pointer}
 .live-horizon button.active{color:#071827;background:#48d6ff;border-color:#48d6ff}
-
 .live-now{display:flex;gap:16px;flex-wrap:wrap;margin:14px 0}
 .live-now-big{display:flex;flex-direction:column;gap:2px;min-width:140px;padding:12px 16px;border-radius:12px;background:rgba(255,255,255,.03);border:1px solid rgba(143,179,199,.2)}
 .live-now-big span:first-child{font-size:9px;letter-spacing:.16em;color:#8fb3c7}
@@ -64,7 +56,6 @@ main{max-width:1120px;margin:0 auto;padding:0 24px 48px}
 .live-now-side div{padding:8px 12px;border-radius:10px;background:rgba(255,255,255,.03);border:1px solid rgba(143,179,199,.15)}
 .live-now-side span{display:block;font-size:9px;letter-spacing:.14em;color:#8fb3c7}
 .live-now-side b{font-size:15px;color:#e8f0f5}
-
 .live-timeline{display:flex;gap:2px;align-items:flex-end;height:140px;margin-top:10px}
 .live-tl-col{flex:1;display:flex;flex-direction:column;align-items:center;height:100%;min-width:0}
 .live-tl-bar-wrap{flex:1;width:100%;display:flex;align-items:flex-end}
@@ -78,3 +69,11 @@ main{max-width:1120px;margin:0 auto;padding:0 24px 48px}
 .live-legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}
 .dot.wet{background:#48d6ff}.dot.mid{background:#ffd97a}.dot.dry{background:#7fe3a6}.dot.na{background:#233a4d}
 .live-source{margin-top:14px;font-size:10px;color:#5e7f93;letter-spacing:.02em}
+
+/* ================= V3 pre-increment: research takeaway band ================= */
+.takeaway{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;max-width:1120px;margin:0 auto 18px;padding:14px 22px;border-radius:14px;background:rgba(150,121,255,.07);border:1px solid rgba(150,121,255,.3)}
+.takeaway p{margin:0;font-size:12.5px;line-height:1.65;color:#b8c8d4;max-width:840px}
+.takeaway b{color:#d9d0ff}
+.takeaway-link{white-space:nowrap;font:600 12px/1 inherit;letter-spacing:.08em;text-transform:uppercase;color:#071827;background:#b7a5ff;border:0;border-radius:999px;padding:11px 18px;cursor:pointer}
+.takeaway-link:hover{background:#cbbcff}
+@media(max-width:620px){.takeaway{flex-direction:column;align-items:flex-start;padding:12px 16px}.takeaway-link{width:100%;text-align:center}}
