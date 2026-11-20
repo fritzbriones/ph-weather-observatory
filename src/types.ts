@@ -37,3 +37,25 @@ export interface IslandComparison {
   cities: number;
   days: number;
 }
+
+/* V3 city cards: frozen reliability-bin types (src/data/reliability-bins.json) */
+export interface ReliabilityBin {
+  range: string;
+  n: number;
+  observed_freq: number;
+}
+
+export interface ReliabilityCity {
+  n_hours: number;
+  bin_hours: number;
+  hourly_wet_rate: number;
+  mean_prob_pct: number;
+  hourly_brier: number;
+  base_rate_brier: number;
+  bins: ReliabilityBin[];
+}
+
+export interface ReliabilityBins {
+  meta: Record<string, unknown>;
+  cities: Record<string, ReliabilityCity>;
+}
