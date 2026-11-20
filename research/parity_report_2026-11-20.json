@@ -1,0 +1,704 @@
+{
+  "checked_at_utc": "2026-11-20T10:30:17.097332+00:00",
+  "live_api": "https://api.open-meteo.com/v1/forecast",
+  "archive_api": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+  "variables": [
+    "precipitation_probability",
+    "temperature_2m",
+    "relative_humidity_2m",
+    "cloud_cover"
+  ],
+  "cities": {
+    "Manila": {
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Quezon City": {
+      "lat": 14.676,
+      "lon": 121.0437,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Baguio": {
+      "lat": 16.4155,
+      "lon": 120.5949,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Vigan": {
+      "lat": 17.573,
+      "lon": 120.389,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Legazpi": {
+      "lat": 13.1462,
+      "lon": 123.736,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Naga": {
+      "lat": 13.6218,
+      "lon": 123.1957,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Tuguegarao": {
+      "lat": 17.6133,
+      "lon": 121.7247,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Cebu City": {
+      "lat": 10.3157,
+      "lon": 123.8857,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Iloilo City": {
+      "lat": 10.72,
+      "lon": 122.5611,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Bacolod": {
+      "lat": 10.6765,
+      "lon": 122.951,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Tacloban": {
+      "lat": 11.2431,
+      "lon": 125.1761,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Calbayog": {
+      "lat": 12.0667,
+      "lon": 124.6,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Dumaguete": {
+      "lat": 9.3061,
+      "lon": 123.2969,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Davao City": {
+      "lat": 7.1907,
+      "lon": 125.4553,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Cagayan de Oro": {
+      "lat": 8.5483,
+      "lon": 124.6639,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Zamboanga City": {
+      "lat": 6.9214,
+      "lon": 122.079,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "General Santos City": {
+      "lat": 6.1164,
+      "lon": 125.1717,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Butuan City": {
+      "lat": 8.9477,
+      "lon": 125.5426,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    },
+    "Cotabato City": {
+      "lat": 7.2244,
+      "lon": 124.2419,
+      "schema_ok": true,
+      "units_ok": true,
+      "timezone_ok": true,
+      "timestamps_ok": true,
+      "missing_flags_ok": true,
+      "ok": true,
+      "variable_diffs": {
+        "precipitation_probability": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "temperature_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0.0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "relative_humidity_2m": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        },
+        "cloud_cover": {
+          "n_compared": 48,
+          "max_abs_diff": 0,
+          "missing_live": 0,
+          "missing_archive": 0
+        }
+      }
+    }
+  },
+  "overall": {
+    "schema_ok": true,
+    "units_ok": true,
+    "timestamps_ok": true,
+    "missing_flags_ok": true,
+    "ok": true
+  }
+}
