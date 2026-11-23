@@ -1,25 +1,46 @@
-
 name: Daily prospective-window forecast snapshot
-# Records issued forecasts (inputs only) during the 2026-12-01..2027-05-29
+# Records issued forecasts (inputs only) for the 2026-12-01..2027-05-29
 # prospective window. Strictly additive: only writes prospect-archive/snapshots/.
+# Self-healing: each run backfills any missing day, so a skipped run never
+# leaves a permanent gap. A second daily run is a backup for the first.
 on:
   schedule:
-    - cron: "35 16 * * *"   # 16:35 UTC = 00:35 Asia/Manila, captures the full completed day
+    - cron: "35 16 * * *"   # 00:35 Asia/Manila, main run (GitHub often starts it hours late)
+    - cron: "35 4 * * *"    # 12:35 Asia/Manila, backup run (no-op if already archived)
   workflow_dispatch: {}      # allows manual runs
 permissions:
   contents: write
+  actions: write             # needed for the keep-alive step below
+concurrency:
+  group: prospect-archive    # never let two runs push at the same time
+  cancel-in-progress: false
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Collect yesterday's forecast snapshot (19 cities)
+      - name: Collect missing days' forecast snapshots (19 cities)
+        id: collect
+        continue-on-error: true      # still commit the days that succeeded
         run: python3 prospect-archive/collect_snapshot.py
       - name: Commit new snapshots
         run: |
           git config user.name "archive-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add prospect-archive/snapshots/
+          git add prospect-archive/snapshots/*.csv
           git diff --cached --quiet && echo "no new data" && exit 0
           git commit -m "prospect-archive: snapshot $(date -u +%F)"
+          git pull --rebase --quiet origin main
           git push
+      - name: Keep the schedule alive
+        # GitHub disables scheduled workflows in public repos after 60 days
+        # without repository activity. Re-enabling this workflow on every run
+        # keeps it active for the whole 180-day window.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/prospect-archive.yml/enable"
+      - name: Report collection failure
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo "::error::Some days could not be archived; the next run will retry them."
+          exit 1
