@@ -63,7 +63,7 @@ The frozen results above are exploratory. A confirmatory test on new data is now
 
 - **Protocol:** [`research/PROSPECTIVE-PRE-REGISTRATION.md`](research/PROSPECTIVE-PRE-REGISTRATION.md), status *LOCKED P0, preregistered 2026-11-20*. It is also registered on OSF: [doi:10.17605/OSF.IO/HYS58](https://doi.org/10.17605/OSF.IO/HYS58).
 - **Frozen models:** final-fold coefficients from `research/rolling_origin_coefficients.csv` and `research/model_c_coefficients.csv`, with checksums in `research/FROZEN-SHA256-MANIFEST.json` (`python research/verify_frozen_artifacts.py verify`).
-- **Evaluation window:** 2026-12-01 00:00 to 2027-05-29 23:00 Asia/Manila (180 days). A daily GitHub Action (`.github/workflows/prospect-archive.yml`) records issued forecasts to `prospect-archive/snapshots/`.
+- **Evaluation window:** 2026-12-01 00:00 to 2027-05-29 23:00 Asia/Manila (180 days). A GitHub Action (`.github/workflows/prospect-archive.yml`) records issued forecasts to `prospect-archive/snapshots/` twice a day (a main run plus a backup). It automatically backfills any missed day and keeps itself enabled, so it runs unattended for the whole window.
 - **Success criterion (declared in advance):** the 95% CI of the C-live − A-live macro daily Brier difference lies entirely below zero at window close.
 
 Until the window closes and is scored, **no claim of live forecast improvement is made or implied**, and the app does not display research-adjusted probabilities.
