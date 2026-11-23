@@ -57,9 +57,17 @@ The live layer calls the public Open-Meteo API **directly from the visitor's bro
 - **Verification reference (research):** [ERA5 seamless reanalysis](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels) (ECMWF, via CopernicusClimate Data Store), ~0.25° grid.
 - ERA5 is a gridded reference dataset, **not** ground-truth station observation.
 
-## Prospective validation (planned, not yet active)
+## Prospective validation (pre-registered, data collection under way)
 
-The frozen results are exploratory. Before any prospective application of Models B/C to live forecasts (e.g., a "research-adjusted probability" display), a pre-registration must be completed and dated — see [`research/PRE-REGISTRATION.md`](research/PRE-REGISTRATION.md). Until the pre-registered evaluation window closes and is scored through the archive pipeline, **no claim of live forecast improvement is made or implied**.
+The frozen results above are exploratory. A confirmatory test on new data is now **locked and pre-registered**:
+
+- **Protocol:** [`research/PROSPECTIVE-PRE-REGISTRATION.md`](research/PROSPECTIVE-PRE-REGISTRATION.md), status *LOCKED P0, preregistered 2026-11-20*. It is also registered on OSF: [doi:10.17605/OSF.IO/HYS58](https://doi.org/10.17605/OSF.IO/HYS58).
+- **Frozen models:** final-fold coefficients from `research/rolling_origin_coefficients.csv` and `research/model_c_coefficients.csv`, with checksums in `research/FROZEN-SHA256-MANIFEST.json` (`python research/verify_frozen_artifacts.py verify`).
+- **Evaluation window:** 2026-12-01 00:00 to 2027-05-29 23:00 Asia/Manila (180 days). A daily GitHub Action (`.github/workflows/prospect-archive.yml`) records issued forecasts to `prospect-archive/snapshots/`.
+- **Success criterion (declared in advance):** the 95% CI of the C-live − A-live macro daily Brier difference lies entirely below zero at window close.
+
+Until the window closes and is scored, **no claim of live forecast improvement is made or implied**, and the app does not display research-adjusted probabilities.
+(`research/PRE-REGISTRATION.md` is the earlier draft template, superseded by the locked protocol.)
 
 ## AI use
 
