@@ -1,0 +1,457 @@
+forecast_valid_time_local,city,lat,lon,fetched_at_utc,source_api,precipitation_probability,temperature_2m,relative_humidity_2m,cloud_cover
+2026-11-26T00:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.3,69,97
+2026-11-26T01:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.0,71,98
+2026-11-26T02:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.5,70,98
+2026-11-26T03:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.2,72,98
+2026-11-26T04:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.0,73,98
+2026-11-26T05:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.8,74,80
+2026-11-26T06:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,26.6,75,70
+2026-11-26T07:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,27.1,73,99
+2026-11-26T08:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,28.7,65,85
+2026-11-26T09:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,3,30.1,60,91
+2026-11-26T10:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,31.8,53,91
+2026-11-26T11:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,33.1,48,94
+2026-11-26T12:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,30,33.4,47,100
+2026-11-26T13:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,64,31.8,53,100
+2026-11-26T14:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,84,32.1,52,97
+2026-11-26T15:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,75,31.5,55,91
+2026-11-26T16:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,50,31.6,54,75
+2026-11-26T17:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,29,31.0,55,100
+2026-11-26T18:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,17,30.3,58,88
+2026-11-26T19:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,29.6,62,16
+2026-11-26T20:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,29.9,62,69
+2026-11-26T21:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,29.1,66,95
+2026-11-26T22:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.8,68,82
+2026-11-26T23:00,Manila,14.5995,120.9842,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.5,70,98
+2026-11-26T00:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.3,70,97
+2026-11-26T01:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.8,73,99
+2026-11-26T02:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.6,71,98
+2026-11-26T03:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.2,73,98
+2026-11-26T04:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.9,74,94
+2026-11-26T05:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.7,76,73
+2026-11-26T06:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.5,77,86
+2026-11-26T07:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,27.0,74,100
+2026-11-26T08:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,28.7,66,80
+2026-11-26T09:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,30.3,60,91
+2026-11-26T10:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,32.2,52,89
+2026-11-26T11:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,33.7,47,85
+2026-11-26T12:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,32,34.7,45,100
+2026-11-26T13:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,63,33.2,47,100
+2026-11-26T14:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,82,33.0,46,100
+2026-11-26T15:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,80,32.5,50,98
+2026-11-26T16:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,67,32.6,49,68
+2026-11-26T17:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,51,31.6,52,98
+2026-11-26T18:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,34,30.9,55,83
+2026-11-26T19:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,30.3,58,16
+2026-11-26T20:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,30.4,58,79
+2026-11-26T21:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,29.9,61,98
+2026-11-26T22:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,29.5,63,74
+2026-11-26T23:00,Quezon City,14.676,121.0437,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,29.1,65,96
+2026-11-26T00:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,16.5,99,77
+2026-11-26T01:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,16.2,99,95
+2026-11-26T02:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,15.9,98,98
+2026-11-26T03:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,15.7,98,98
+2026-11-26T04:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,15.5,98,95
+2026-11-26T05:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,22,15.4,98,98
+2026-11-26T06:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,15.4,98,94
+2026-11-26T07:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,5,16.5,97,88
+2026-11-26T08:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,19.5,83,75
+2026-11-26T09:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,23,21.2,76,30
+2026-11-26T10:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,51,22.5,70,48
+2026-11-26T11:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,75,22.2,77,55
+2026-11-26T12:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,88,21.9,79,100
+2026-11-26T13:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,95,21.9,80,100
+2026-11-26T14:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,20.4,82,100
+2026-11-26T15:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,18.6,99,44
+2026-11-26T16:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,19.1,98,21
+2026-11-26T17:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,19.0,98,26
+2026-11-26T18:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,76,18.0,100,95
+2026-11-26T19:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,42,17.6,98,16
+2026-11-26T20:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,17.9,91,6
+2026-11-26T21:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,5,17.4,92,45
+2026-11-26T22:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,17.3,92,57
+2026-11-26T23:00,Baguio,16.4155,120.5949,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,17.2,93,85
+2026-11-26T00:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,19,27.0,71,74
+2026-11-26T01:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,9,26.6,76,88
+2026-11-26T02:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,26.3,79,94
+2026-11-26T03:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,26.1,82,52
+2026-11-26T04:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,17,25.8,84,30
+2026-11-26T05:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,22,25.4,81,78
+2026-11-26T06:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,19,25.1,79,95
+2026-11-26T07:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,25.9,76,96
+2026-11-26T08:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,28.2,75,100
+2026-11-26T09:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,29.2,73,91
+2026-11-26T10:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,30.3,69,44
+2026-11-26T11:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,30.8,69,72
+2026-11-26T12:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,29.6,77,100
+2026-11-26T13:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,43,30.0,74,94
+2026-11-26T14:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,63,30.4,68,75
+2026-11-26T15:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,80,29.3,72,58
+2026-11-26T16:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,94,29.5,72,36
+2026-11-26T17:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,27.5,84,13
+2026-11-26T18:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,75,25.9,91,18
+2026-11-26T19:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,41,25.5,91,21
+2026-11-26T20:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,25.9,87,23
+2026-11-26T21:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,25.7,89,13
+2026-11-26T22:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,25.5,91,72
+2026-11-26T23:00,Vigan,17.573,120.389,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.3,92,69
+2026-11-26T00:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,25.4,96,44
+2026-11-26T01:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,25.3,96,93
+2026-11-26T02:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,26.0,94,100
+2026-11-26T03:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,99,25.4,95,98
+2026-11-26T04:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,97,25.2,94,100
+2026-11-26T05:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,24.9,96,99
+2026-11-26T06:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,24.8,96,99
+2026-11-26T07:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,97,25.2,94,98
+2026-11-26T08:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,98,27.6,88,98
+2026-11-26T09:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,99,28.5,82,100
+2026-11-26T10:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,99,27.1,86,93
+2026-11-26T11:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,98,28.4,79,72
+2026-11-26T12:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,29.5,75,82
+2026-11-26T13:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,93,28.9,77,98
+2026-11-26T14:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,86,30.1,71,84
+2026-11-26T15:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,73,30.2,67,97
+2026-11-26T16:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,56,29.4,71,100
+2026-11-26T17:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,41,28.3,77,96
+2026-11-26T18:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,29,28.0,79,66
+2026-11-26T19:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,27.9,79,77
+2026-11-26T20:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,18,27.9,81,69
+2026-11-26T21:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,27,27.6,82,98
+2026-11-26T22:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,43,27.5,83,98
+2026-11-26T23:00,Legazpi,13.1462,123.736,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,57,27.3,84,94
+2026-11-26T00:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,26.1,89,46
+2026-11-26T01:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,34,26.1,92,58
+2026-11-26T02:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,49,26.5,86,88
+2026-11-26T03:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,67,26.1,89,94
+2026-11-26T04:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,86,25.3,93,100
+2026-11-26T05:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,98,24.8,95,100
+2026-11-26T06:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,98,24.7,96,94
+2026-11-26T07:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,92,24.9,95,95
+2026-11-26T08:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,88,27.0,85,100
+2026-11-26T09:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,90,25.6,93,100
+2026-11-26T10:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,95,26.6,93,99
+2026-11-26T11:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,98,27.4,85,100
+2026-11-26T12:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,27.5,83,100
+2026-11-26T13:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,29.1,81,59
+2026-11-26T14:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,94,29.0,79,73
+2026-11-26T15:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,79,29.8,74,94
+2026-11-26T16:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,58,29.4,74,99
+2026-11-26T17:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,39,28.3,80,100
+2026-11-26T18:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,23,27.2,87,98
+2026-11-26T19:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,10,26.8,89,62
+2026-11-26T20:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.7,90,80
+2026-11-26T21:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.3,92,97
+2026-11-26T22:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.0,94,95
+2026-11-26T23:00,Naga,13.6218,123.1957,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.9,94,95
+2026-11-26T00:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,23.2,97,91
+2026-11-26T01:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,90,23.1,98,96
+2026-11-26T02:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,80,22.8,98,100
+2026-11-26T03:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,62,23.0,97,98
+2026-11-26T04:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,40,22.8,97,67
+2026-11-26T05:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,24,22.7,98,60
+2026-11-26T06:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,18,22.6,98,66
+2026-11-26T07:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,19,23.1,96,91
+2026-11-26T08:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,22,24.4,95,84
+2026-11-26T09:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,30,26.1,89,98
+2026-11-26T10:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,41,27.4,81,96
+2026-11-26T11:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,45,28.9,74,38
+2026-11-26T12:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,36,29.5,69,25
+2026-11-26T13:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,22,30.1,67,51
+2026-11-26T14:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,30.5,64,33
+2026-11-26T15:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,30.1,67,40
+2026-11-26T16:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,29.6,70,28
+2026-11-26T17:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,24,28.4,82,66
+2026-11-26T18:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,21,27.1,86,34
+2026-11-26T19:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,15,26.5,88,13
+2026-11-26T20:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,10,26.3,89,4
+2026-11-26T21:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,25.8,91,8
+2026-11-26T22:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,25.4,94,4
+2026-11-26T23:00,Tuguegarao,17.6133,121.7247,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.9,96,11
+2026-11-26T00:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,41,26.3,92,67
+2026-11-26T01:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,44,26.2,93,67
+2026-11-26T02:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,43,26.1,93,67
+2026-11-26T03:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,33,25.8,93,41
+2026-11-26T04:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,25.6,94,46
+2026-11-26T05:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,25.8,93,71
+2026-11-26T06:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,13,25.7,93,100
+2026-11-26T07:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,19,26.4,88,98
+2026-11-26T08:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,31,26.5,87,93
+2026-11-26T09:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,55,26.3,91,98
+2026-11-26T10:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,85,27.0,88,100
+2026-11-26T11:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,29.2,76,99
+2026-11-26T12:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,88,29.7,72,100
+2026-11-26T13:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,61,29.2,75,98
+2026-11-26T14:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,39,30.2,69,91
+2026-11-26T15:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,31,30.0,70,88
+2026-11-26T16:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,27,29.0,73,98
+2026-11-26T17:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,24,28.2,77,100
+2026-11-26T18:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,18,27.4,83,100
+2026-11-26T19:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,13,27.1,84,75
+2026-11-26T20:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,26.8,84,70
+2026-11-26T21:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,5,26.6,84,59
+2026-11-26T22:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,3,26.4,85,25
+2026-11-26T23:00,Cebu City,10.3157,123.8857,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,26.3,88,14
+2026-11-26T00:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,24,25.0,92,48
+2026-11-26T01:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,24.5,94,48
+2026-11-26T02:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,24.9,92,77
+2026-11-26T03:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,10,25.0,93,55
+2026-11-26T04:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,17,24.9,95,35
+2026-11-26T05:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,24.7,96,52
+2026-11-26T06:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,13,24.8,96,83
+2026-11-26T07:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,25.1,93,99
+2026-11-26T08:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,27.7,81,49
+2026-11-26T09:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,24,29.0,76,70
+2026-11-26T10:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,54,29.7,73,55
+2026-11-26T11:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,76,29.5,74,85
+2026-11-26T12:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,83,30.5,69,88
+2026-11-26T13:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,83,31.4,64,78
+2026-11-26T14:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,82,31.4,63,88
+2026-11-26T15:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,83,30.9,65,79
+2026-11-26T16:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,83,29.4,73,63
+2026-11-26T17:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,76,28.8,76,72
+2026-11-26T18:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,56,27.8,83,61
+2026-11-26T19:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,29,27.1,85,55
+2026-11-26T20:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,26.4,90,48
+2026-11-26T21:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,26.3,89,47
+2026-11-26T22:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.1,89,30
+2026-11-26T23:00,Iloilo City,10.72,122.5611,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.7,91,52
+2026-11-26T00:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,47,27.6,83,65
+2026-11-26T01:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,29,27.4,83,65
+2026-11-26T02:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,27.1,81,52
+2026-11-26T03:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,27.3,79,50
+2026-11-26T04:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,11,27.4,80,42
+2026-11-26T05:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,27.2,80,50
+2026-11-26T06:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,10,27.4,80,66
+2026-11-26T07:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,28.5,76,98
+2026-11-26T08:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,30.5,68,55
+2026-11-26T09:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,34,31.4,65,73
+2026-11-26T10:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,61,32.1,64,59
+2026-11-26T11:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,82,33.6,58,99
+2026-11-26T12:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,90,33.8,55,98
+2026-11-26T13:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,91,33.6,55,90
+2026-11-26T14:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,88,33.7,54,98
+2026-11-26T15:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,80,32.2,59,85
+2026-11-26T16:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,68,31.9,60,81
+2026-11-26T17:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,55,31.1,64,95
+2026-11-26T18:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,43,30.3,69,100
+2026-11-26T19:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,30,29.6,73,12
+2026-11-26T20:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,27.9,86,84
+2026-11-26T21:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,13,27.6,82,60
+2026-11-26T22:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,27.5,79,66
+2026-11-26T23:00,Bacolod,10.6765,122.951,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,27.3,80,43
+2026-11-26T00:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,92,23.8,98,99
+2026-11-26T01:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,23.7,99,97
+2026-11-26T02:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,98,23.6,99,100
+2026-11-26T03:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,23.8,99,99
+2026-11-26T04:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,24.0,98,100
+2026-11-26T05:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,24.3,97,100
+2026-11-26T06:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,99,24.3,98,100
+2026-11-26T07:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,99,24.1,98,100
+2026-11-26T08:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,98,24.6,98,100
+2026-11-26T09:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,99,25.3,98,100
+2026-11-26T10:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,25.2,98,100
+2026-11-26T11:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,25.5,96,100
+2026-11-26T12:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,26.1,97,88
+2026-11-26T13:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,27.4,93,99
+2026-11-26T14:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,28.3,80,100
+2026-11-26T15:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,83,28.0,81,100
+2026-11-26T16:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,65,27.2,85,95
+2026-11-26T17:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,47,26.5,87,85
+2026-11-26T18:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,29,25.8,90,100
+2026-11-26T19:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,25.3,92,68
+2026-11-26T20:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.1,93,77
+2026-11-26T21:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.8,94,45
+2026-11-26T22:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.8,93,49
+2026-11-26T23:00,Tacloban,11.2431,125.1761,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.0,91,63
+2026-11-26T00:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,92,24.5,98,91
+2026-11-26T01:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,87,24.6,98,95
+2026-11-26T02:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,84,24.6,99,91
+2026-11-26T03:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,91,24.3,99,48
+2026-11-26T04:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,24.2,99,100
+2026-11-26T05:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,24.4,98,97
+2026-11-26T06:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,79,24.2,98,100
+2026-11-26T07:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,48,25.0,97,92
+2026-11-26T08:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,25,27.0,92,83
+2026-11-26T09:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,18,28.5,80,98
+2026-11-26T10:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,19,29.2,75,99
+2026-11-26T11:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,25,30.4,72,100
+2026-11-26T12:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,41,28.1,81,100
+2026-11-26T13:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,61,28.9,79,96
+2026-11-26T14:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,71,30.4,65,98
+2026-11-26T15:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,60,30.3,65,91
+2026-11-26T16:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,38,30.0,66,99
+2026-11-26T17:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,28.8,75,100
+2026-11-26T18:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,9,27.9,78,91
+2026-11-26T19:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,27.1,80,87
+2026-11-26T20:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.3,86,10
+2026-11-26T21:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,9,25.9,88,33
+2026-11-26T22:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,25,25.6,89,7
+2026-11-26T23:00,Calbayog,12.0667,124.6,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,37,25.4,90,25
+2026-11-26T00:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,41,26.8,86,45
+2026-11-26T01:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,27,26.3,91,41
+2026-11-26T02:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,18,26.7,87,20
+2026-11-26T03:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,26.1,91,32
+2026-11-26T04:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,19,26.0,93,46
+2026-11-26T05:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,27,26.0,92,48
+2026-11-26T06:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,43,25.6,94,64
+2026-11-26T07:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,65,26.6,94,84
+2026-11-26T08:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,82,28.5,84,20
+2026-11-26T09:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,94,26.2,91,98
+2026-11-26T10:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,25.8,97,90
+2026-11-26T11:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,27.5,90,46
+2026-11-26T12:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,81,28.9,82,99
+2026-11-26T13:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,51,29.2,81,100
+2026-11-26T14:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,27,29.4,82,100
+2026-11-26T15:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,28.7,85,99
+2026-11-26T16:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,5,28.6,84,100
+2026-11-26T17:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.2,85,95
+2026-11-26T18:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.2,87,70
+2026-11-26T19:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.7,86,23
+2026-11-26T20:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.9,86,35
+2026-11-26T21:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.7,86,45
+2026-11-26T22:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.4,88,80
+2026-11-26T23:00,Dumaguete,9.3061,123.2969,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.4,89,73
+2026-11-26T00:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,24.5,91,69
+2026-11-26T01:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,24.3,90,84
+2026-11-26T02:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,24.3,90,94
+2026-11-26T03:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,23.9,90,74
+2026-11-26T04:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,24.0,88,94
+2026-11-26T05:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,23.9,87,98
+2026-11-26T06:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,24.2,87,99
+2026-11-26T07:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.3,91,94
+2026-11-26T08:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.9,89,100
+2026-11-26T09:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,28.4,79,100
+2026-11-26T10:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,9,29.9,69,93
+2026-11-26T11:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,30.9,62,90
+2026-11-26T12:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,19,31.6,57,86
+2026-11-26T13:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,23,31.8,56,94
+2026-11-26T14:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,25,31.8,53,59
+2026-11-26T15:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,24,31.3,56,44
+2026-11-26T16:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,20,30.5,63,29
+2026-11-26T17:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,28.2,80,15
+2026-11-26T18:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,11,27.1,76,11
+2026-11-26T19:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,26.3,75,19
+2026-11-26T20:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.2,81,16
+2026-11-26T21:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.6,85,22
+2026-11-26T22:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.6,85,52
+2026-11-26T23:00,Davao City,7.1907,125.4553,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.1,84,84
+2026-11-26T00:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,26.3,90,31
+2026-11-26T01:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,9,26.2,89,66
+2026-11-26T02:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,26.2,86,63
+2026-11-26T03:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,26.0,85,26
+2026-11-26T04:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,25.7,85,15
+2026-11-26T05:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.5,85,2
+2026-11-26T06:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.4,85,2
+2026-11-26T07:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,27.5,76,11
+2026-11-26T08:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,29.5,66,20
+2026-11-26T09:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,30.9,63,55
+2026-11-26T10:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,7,32.0,60,91
+2026-11-26T11:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,10,31.9,64,55
+2026-11-26T12:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,13,31.6,68,70
+2026-11-26T13:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,31.2,69,98
+2026-11-26T14:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,31.3,67,98
+2026-11-26T15:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,30.9,67,99
+2026-11-26T16:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,5,30.3,71,98
+2026-11-26T17:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,29.6,75,97
+2026-11-26T18:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,29.2,79,98
+2026-11-26T19:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.9,81,95
+2026-11-26T20:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,28.5,83,27
+2026-11-26T21:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.8,86,31
+2026-11-26T22:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.4,84,14
+2026-11-26T23:00,Cagayan de Oro,8.5483,124.6639,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.4,81,19
+2026-11-26T00:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,15,25.7,92,50
+2026-11-26T01:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,15,25.5,92,53
+2026-11-26T02:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,25.7,93,83
+2026-11-26T03:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,10,25.8,94,88
+2026-11-26T04:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,25.6,93,80
+2026-11-26T05:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.3,95,64
+2026-11-26T06:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.3,92,87
+2026-11-26T07:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.9,90,47
+2026-11-26T08:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,29.4,73,15
+2026-11-26T09:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,34,29.7,73,25
+2026-11-26T10:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,72,29.9,73,74
+2026-11-26T11:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,29.4,76,82
+2026-11-26T12:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,29.8,75,94
+2026-11-26T13:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,29.9,74,88
+2026-11-26T14:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,30.0,72,76
+2026-11-26T15:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,30.2,70,77
+2026-11-26T16:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,100,29.7,71,92
+2026-11-26T17:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,96,28.8,78,85
+2026-11-26T18:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,67,28.2,86,23
+2026-11-26T19:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,28,27.7,91,11
+2026-11-26T20:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.5,88,17
+2026-11-26T21:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.6,91,72
+2026-11-26T22:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.2,92,98
+2026-11-26T23:00,Zamboanga City,6.9214,122.079,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.1,91,100
+2026-11-26T00:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,5,25.8,85,94
+2026-11-26T01:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,25.3,88,80
+2026-11-26T02:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.0,89,91
+2026-11-26T03:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.9,88,92
+2026-11-26T04:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.5,90,96
+2026-11-26T05:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.4,90,97
+2026-11-26T06:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.6,89,94
+2026-11-26T07:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.8,83,97
+2026-11-26T08:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,29.0,76,95
+2026-11-26T09:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,30.8,68,95
+2026-11-26T10:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,31.9,57,95
+2026-11-26T11:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,32.8,52,88
+2026-11-26T12:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,33.0,50,80
+2026-11-26T13:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,33.0,51,73
+2026-11-26T14:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,33.0,49,63
+2026-11-26T15:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,32.6,50,36
+2026-11-26T16:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,31.7,53,34
+2026-11-26T17:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,6,30.0,60,22
+2026-11-26T18:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,5,28.2,69,6
+2026-11-26T19:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,27.4,74,1
+2026-11-26T20:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,26.8,75,8
+2026-11-26T21:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,1,26.1,74,0
+2026-11-26T22:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.9,73,0
+2026-11-26T23:00,General Santos City,6.1164,125.1717,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.5,73,11
+2026-11-26T00:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,25.4,96,25
+2026-11-26T01:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,25.2,96,14
+2026-11-26T02:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,25.2,94,13
+2026-11-26T03:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,16,24.9,95,18
+2026-11-26T04:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,32,24.6,96,38
+2026-11-26T05:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,43,24.7,95,38
+2026-11-26T06:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,44,24.8,95,55
+2026-11-26T07:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,41,26.5,88,52
+2026-11-26T08:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,39,28.4,82,23
+2026-11-26T09:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,40,30.0,74,40
+2026-11-26T10:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,42,30.8,70,91
+2026-11-26T11:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,47,31.4,68,98
+2026-11-26T12:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,58,32.0,67,77
+2026-11-26T13:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,72,31.7,70,41
+2026-11-26T14:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,76,32.0,64,73
+2026-11-26T15:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,61,31.8,65,60
+2026-11-26T16:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,37,31.3,67,59
+2026-11-26T17:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,18,29.7,78,79
+2026-11-26T18:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,28.7,84,79
+2026-11-26T19:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,13,28.3,85,93
+2026-11-26T20:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,12,27.9,87,75
+2026-11-26T21:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,26.9,91,75
+2026-11-26T22:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,3,26.3,93,95
+2026-11-26T23:00,Butuan City,8.9477,125.5426,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.0,92,93
+2026-11-26T00:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,43,24.9,100,95
+2026-11-26T01:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,21,24.8,99,73
+2026-11-26T02:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,4,24.6,100,48
+2026-11-26T03:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.4,100,94
+2026-11-26T04:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.3,100,92
+2026-11-26T05:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.2,100,94
+2026-11-26T06:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,24.1,100,99
+2026-11-26T07:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.2,95,41
+2026-11-26T08:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.5,90,41
+2026-11-26T09:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,3,29.2,78,34
+2026-11-26T10:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,8,30.6,70,66
+2026-11-26T11:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,14,31.6,65,50
+2026-11-26T12:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,22,32.7,58,91
+2026-11-26T13:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,32,33.2,52,95
+2026-11-26T14:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,35,33.4,49,81
+2026-11-26T15:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,27,32.8,52,42
+2026-11-26T16:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,13,31.7,57,40
+2026-11-26T17:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,2,29.5,78,16
+2026-11-26T18:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.8,83,8
+2026-11-26T19:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.0,89,18
+2026-11-26T20:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,27.3,88,16
+2026-11-26T21:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.6,91,3
+2026-11-26T22:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,26.1,93,23
+2026-11-26T23:00,Cotabato City,7.2244,124.2419,2026-11-27T14:15:15.305274+00:00,https://historical-forecast-api.open-meteo.com/v1/forecast,0,25.7,95,13
